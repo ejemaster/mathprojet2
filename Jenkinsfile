@@ -9,12 +9,12 @@ node{
        }
        
        stage ('Build - Maven Package') {
-           sh 'mvn package'
+           bat 'mvn package'
        }
 
        stage('Junit - Test Stage')
        {
-           sh 'mvn test'
+           bat 'mvn test'
        }
 
  def  img = stage ('Build-Docker Image') {
