@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.i9Bach.mathUtils.MathutilsTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.i9Bach.mathUtils.MathutilsTest" time="0.073" tests="7" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\ejang\AppData\Local\Temp\surefire8326345078727574028\surefirebooter11339672274703753686.jar C:\Users\ejang\AppData\Local\Temp\surefire8326345078727574028 2019-12-17T10-20-15_471-jvmRun1 surefire12664055284610862909tmp surefire_09796963987277287761tmp"/>
+    <property name="sun.java.command" value="C:\Users\ejang\AppData\Local\Temp\surefire772530178500957808\surefirebooter5420117911667216604.jar C:\Users\ejang\AppData\Local\Temp\surefire772530178500957808 2019-12-17T20-36-12_265-jvmRun1 surefire5456077569374368322tmp surefire_05383480500368620020tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ejang\eclipse-workspace\Mathlib\target\test-classes;C:\Users\ejang\eclipse-workspace\Mathlib\target\classes;C:\Users\ejang\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\ejang\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ejang\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ejang\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\ejang\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\ejang\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\ejang\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ejang\AppData\Local\Temp\surefire8326345078727574028\surefirebooter11339672274703753686.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ejang\AppData\Local\Temp\surefire772530178500957808\surefirebooter5420117911667216604.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -48,12 +48,30 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-12.0.1/bin/server;C:/Program Files/Java/jdk-12.0.1/bin;C:\Program Files (x86)\Java\jre1.8.0_231\bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\Git\cmd;C:\Users\ejang\AppData\Local\Microsoft\WindowsApps;C:\Users\ejang\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ejang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ejang\AppData\Local\GitHubDesktop\bin;C:\Users\ejang\AppData\Roaming\npm;C:\Users\ejang\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jre1.8.0_231\bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;%JAVA_HOME%\bin;%M2_HOME%\bin;C:\Program Files\Git\cmd;C:\Users\ejang\AppData\Local\Microsoft\WindowsApps;C:\Users\ejang\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\ejang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ejang\AppData\Local\GitHubDesktop\bin;C:\Users\ejang\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="13.0.1+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="test" classname="org.i9Bach.mathUtils.MathutilsTest" time="0.011"/>
+  <testcase name="test1" classname="org.i9Bach.mathUtils.MathutilsTest" time="0.012"/>
+  <testcase name="test2" classname="org.i9Bach.mathUtils.MathutilsTest" time="0.047"/>
+  <testcase name="test3" classname="org.i9Bach.mathUtils.MathutilsTest" time="0.004"/>
+  <testcase name="test4" classname="org.i9Bach.mathUtils.MathutilsTest" time="0.002"/>
+  <testcase name="test5" classname="org.i9Bach.mathUtils.MathutilsTest" time="0">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.i9Bach.mathUtils.MathutilsTest.test5(MathutilsTest.java:94)
+]]></failure>
+  </testcase>
+  <testcase name="test6" classname="org.i9Bach.mathUtils.MathutilsTest" time="0">
+    <failure message=" Geben Sie eine String anders als Ejangue Guillaume ==&gt; expected: not same but was: &lt;Ejangue Guillaume&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError:  Geben Sie eine String anders als Ejangue Guillaume ==> expected: not same but was: <Ejangue Guillaume>
+	at org.i9Bach.mathUtils.MathutilsTest.test6(MathutilsTest.java:114)
+]]></failure>
+  </testcase>
+  <testcase name="test7" classname="org.i9Bach.mathUtils.MathutilsTest" time="0">
+    <failure message="expected: &lt;30&gt; but was: &lt;org.i9Bach.mathUtils.Mathutils@667a738&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <30> but was: <org.i9Bach.mathUtils.Mathutils@667a738>
+	at org.i9Bach.mathUtils.MathutilsTest.test7(MathutilsTest.java:124)
+]]></failure>
+  </testcase>
 </testsuite>
