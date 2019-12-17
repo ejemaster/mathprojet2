@@ -1,4 +1,4 @@
-FROM  sgrio/java
+FROM  openjdk:8-jdk
 LABEL maintainer EJANGUE (ejemaster@gmx.de)
 RUN apt-get-update
 RUN apt-get-install -y maven
