@@ -1,4 +1,4 @@
-FROM  openjdk:8-jdk
+FROM  maven:3.6-jdk-14
 LABEL maintainer EJANGUE (ejemaster@gmx.de)
 RUN apt-get update && apt-get install -y maven
 COPY pom.xml /usr/local/service/pom.xml
