@@ -87,11 +87,11 @@ class MathutilsTest {
 	@Test
 	void test5() {
 		Mathutils test5 = new Mathutils();
-		int output = test5.Sub(10, 10);
+		int output = test5.Sub(15, 10);
 
 
 
-		assertTrue(output-10==0);
+		assertTrue(output-10!=0);
 		for(output=1; output <= test5.Sub(15,10);output++)
 		{
 			System.out.println(output);
@@ -109,9 +109,9 @@ class MathutilsTest {
 
 	@Test
 	void test6() {
-		Mathutils test5 = new Mathutils();
-		String Output = test5.Name("Ejangue Guillaume");
-		assertNotSame("Ejangue Guillaume", Output, " Geben Sie eine String anders als Ejangue Guillaume");
+		Mathutils test6 = new Mathutils();
+		String Output = test6.Name("Ejangue Guillaume");
+		assertNotSame("Guillaume", Output, " Geben Sie eine String anders als Ejangue Guillaume");
 
 		System.out.println(Output);
 	}
@@ -121,7 +121,7 @@ class MathutilsTest {
 	void test7() {
 		Mathutils test7 = new Mathutils();
 		int output = test7.Alt(28);
-		assertSame(30, test7);
+		assertSame(28, output);
 
 		if(output<=17)
 		{

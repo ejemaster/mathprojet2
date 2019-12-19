@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.i9Bach.mathUtils.MathutilsTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in org.i9Bach.mathUtils.MathutilsTest
-org.i9Bach.mathUtils.MathutilsTest.test5  Time elapsed: 0.003 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.i9Bach.mathUtils.MathutilsTest.test5(MathutilsTest.java:94)
-
-org.i9Bach.mathUtils.MathutilsTest.test6  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError:  Geben Sie eine String anders als Ejangue Guillaume ==> expected: not same but was: <Ejangue Guillaume>
-	at org.i9Bach.mathUtils.MathutilsTest.test6(MathutilsTest.java:114)
-
-org.i9Bach.mathUtils.MathutilsTest.test7  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <30> but was: <org.i9Bach.mathUtils.Mathutils@5d740a0f>
-	at org.i9Bach.mathUtils.MathutilsTest.test7(MathutilsTest.java:124)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.i9Bach.mathUtils.MathutilsTest
