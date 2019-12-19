@@ -111,7 +111,7 @@ class MathutilsTest {
 	void test6() {
 		Mathutils test6 = new Mathutils();
 		String Output = test6.Name("Ejangue Guillaume");
-		assertNotSame("Guillaume", Output, " Geben Sie eine String anders als Ejangue Guillaume");
+		assertNotSame("Master", Output, " Geben Sie eine String anders als Ejangue Guillaume");
 
 		System.out.println(Output);
 	}
@@ -136,6 +136,8 @@ class MathutilsTest {
 			System.out.println("du bist gerade geboren");
 		}
 	}
+	
+	
 }
 
 
