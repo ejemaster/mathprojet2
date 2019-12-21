@@ -2,12 +2,15 @@ package org.i9Bach.mathUtils;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.concurrent.TimeUnit;
+
 import org.junit.jupiter.api.Test;
 
 class MathutilsTest {
 
 	@Test
-	void test1() {
+	
+ void test1() {
 		Mathutils test = new Mathutils();
 		int output = test.Sum(8, 10);
 
@@ -26,11 +29,12 @@ class MathutilsTest {
 
 			}
 		}
-
+           
 
 	}
 
 	@Test
+	
 	void test2()
 	{
 		Mathutils test2 = new Mathutils();
@@ -46,7 +50,17 @@ class MathutilsTest {
 
 			}
 		}
+	try {
+		TimeUnit.SECONDS.sleep(5);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} 	
 	}
+	 
+	
+	
+	
 	@Test
 	void test3() {
 
@@ -81,7 +95,12 @@ class MathutilsTest {
 
 			}
 		}
-
+		try {
+			TimeUnit.SECONDS.sleep(5);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Test
@@ -102,7 +121,12 @@ class MathutilsTest {
 
 			}
 		}
-
+		try {
+			TimeUnit.SECONDS.sleep(5);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
@@ -118,7 +142,7 @@ class MathutilsTest {
 
 
 	@Test
-	void test7() {
+	public void test7() {
 		Mathutils test7 = new Mathutils();
 		int output = test7.Alt(28);
 		assertSame(28, output);
@@ -136,8 +160,13 @@ class MathutilsTest {
 			System.out.println("du bist gerade geboren");
 		}
 	}
-	
-	
-}
+
+	public static void main(String[]args) {
+
+     System.out.println("Alle Teste waren Erfolgreich");
+		
+
+}}
+
 
 
