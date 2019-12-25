@@ -149,11 +149,11 @@ class MathutilsTest {
 
 		if(output<=17)
 		{
-			System.out.println("Du bist minderjährig");
+			System.out.println("Du bist minderjaehrig");
 		}
 		else if(output>=28)
 		{
-			System.out.println("du bist 28 oder älter");
+			System.out.println("du bist 28 oder aelter");
 		}
 		else
 		{
@@ -161,12 +161,8 @@ class MathutilsTest {
 		}
 	}
 
-	public static void main(String[]args) {
 
-     System.out.println("Alle Teste waren Erfolgreich");
-		
-
-}}
+}
 
 
 
