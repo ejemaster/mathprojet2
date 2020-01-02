@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d2b6a-c1b2-4ea4-9b61-f9016e5ba726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-docker-info.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/image-id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/image-name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/repository" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-docker-info.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-docker-info.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/docker/image-id" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker/image-id" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" afterDir="false" />
     </list>
@@ -168,7 +157,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576494525648</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dockerize Maven Projekt">
+      <created>1578003392159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578003392159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dockerize Maven Projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerize Maven Projekt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="587" y="155" key="#Docker" timestamp="1577703219261">
@@ -184,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="186" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1577995863302" />
-    <state x="612" y="122" key="CommitChangelistDialog2" timestamp="1578001292507">
+    <state x="612" y="122" key="CommitChangelistDialog2" timestamp="1578003391309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="122" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578001292507" />
+    <state x="612" y="122" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578003391309" />
     <state x="774" y="262" key="FileChooserDialogImpl" timestamp="1577700298170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
