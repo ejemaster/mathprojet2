@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.i9Bach</groupId>
 	<artifactId>Mathlib</artifactId>
@@ -38,12 +38,12 @@
 
 		</dependency>
 
-<!-- https://mvnrepository.com/artifact/io.fabric8/docker-maven-plugin -->
-<dependency>
-    <groupId>io.fabric8</groupId>
-    <artifactId>docker-maven-plugin</artifactId>
-    <version>0.31.0</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/io.fabric8/docker-maven-plugin -->
+		<dependency>
+			<groupId>io.fabric8</groupId>
+			<artifactId>docker-maven-plugin</artifactId>
+			<version>0.31.0</version>
+		</dependency>
 
 	</dependencies>
 
@@ -62,25 +62,30 @@
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
-       <groupId>com.spotify</groupId>
-    <artifactId>docker-maven-plugin</artifactId>
-    <version>1.2.1</version>
-             <executions>
-                 <execution>
-                     <id>default</id>
-                     <goals>
-                         <goal>build</goal>
-                     </goals>
-                 </execution>
-             </executions>
-             <configuration>
-             <repository>docker.io/kkapelon/docker-maven-comparison</repository>
-                 <tag>${project.version}</tag>
-             </configuration>
-         </plugin>
-         
+				<!-- https://mvnrepository.com/artifact/com.spotify/docker-maven-plugin -->
+
+				<groupId>com.spotify</groupId>
+				<artifactId>docker-maven-plugin</artifactId>
+				<version>1.1.1</version>
+
+
+				<executions>
+					<execution>
+						<id>default</id>
+						<goals>
+							<goal>build</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<imageName>Mathlib</imageName>
+					<repository>docker.io/kkapelon/docker-maven-comparison</repository>
+					<tag>${project.version}</tag>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<executions>
@@ -105,21 +110,21 @@
 			</plugin>
 
 
-				<plugin>
-					<!-- Build an executable JAR -->
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.2.0</version>
-					<configuration>
-						<archive>
-							<manifest>
-								<addClasspath>true</addClasspath>
-								<classpathPrefix>lib/</classpathPrefix>
-								<mainClass>org.i9Bach.mathUtils.Main</mainClass>
-							</manifest>
-						</archive>
-					</configuration>
-				</plugin>
+			<plugin>
+				<!-- Build an executable JAR -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.2.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>org.i9Bach.mathUtils.Main</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 
 		</plugins>
 	</build>

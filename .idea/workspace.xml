@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d2b6a-c1b2-4ea4-9b61-f9016e5ba726" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/i9Bach/mathUtils/MathutilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/i9Bach/mathUtils/MathutilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +142,11 @@
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -188,26 +202,26 @@
     </state>
     <state x="774" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577700298170" />
     <state x="774" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577385639415" />
-    <state width="827" height="265" key="GridCell.Tab.0.bottom" timestamp="1578395781609">
+    <state width="827" height="265" key="GridCell.Tab.0.bottom" timestamp="1578402313968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="869" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577704102112" />
-    <state width="827" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578395781609" />
-    <state width="827" height="265" key="GridCell.Tab.0.center" timestamp="1578395781609">
+    <state width="827" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578402313968" />
+    <state width="827" height="265" key="GridCell.Tab.0.center" timestamp="1578402313968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="869" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577704102112" />
-    <state width="827" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578395781609" />
-    <state width="827" height="265" key="GridCell.Tab.0.left" timestamp="1578395781609">
+    <state width="827" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578402313968" />
+    <state width="827" height="265" key="GridCell.Tab.0.left" timestamp="1578402313967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="869" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577704102112" />
-    <state width="827" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578395781609" />
-    <state width="827" height="265" key="GridCell.Tab.0.right" timestamp="1578395781609">
+    <state width="827" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578402313967" />
+    <state width="827" height="265" key="GridCell.Tab.0.right" timestamp="1578402313968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="869" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577704102112" />
-    <state width="827" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578395781609" />
+    <state width="827" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578402313968" />
     <state x="736" y="238" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1577703307876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -220,5 +234,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577959234540" />
+    <state x="734" y="258" key="run.anything.popup" timestamp="1578400389847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="258" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578400389847" />
   </component>
 </project>
