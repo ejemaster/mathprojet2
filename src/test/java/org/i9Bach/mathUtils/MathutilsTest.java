@@ -11,7 +11,7 @@ class MathutilsTest {
 	@Test
 	
  void test1() {
-		Mathutils test = new Mathutils();
+		SUM test = new SUM();
 		int output = test.Sum(8, 10);
 
 
@@ -37,7 +37,7 @@ class MathutilsTest {
 	
 	void test2()
 	{
-		Mathutils test2 = new Mathutils();
+		MUL test2 = new MUL();
 		int output = test2.Mul(2, 10);
 		assertNotEquals(15, output);
 		for(output=1; output <= test2.Mul(8,10);output++)
@@ -64,7 +64,7 @@ class MathutilsTest {
 	@Test
 	void test3() {
 
-		Mathutils test3 = new Mathutils();
+		DIV test3 = new DIV();
 		int output = test3.Div(20, 2);
 		assertTrue(output==10);
 		for(output=1; output <= test3.Div(20, 2);output++)
@@ -82,7 +82,7 @@ class MathutilsTest {
 	@Test
 	void test4() {
 
-		Mathutils test4 = new Mathutils();
+		MOD test4 = new MOD();
 		int output = test4.Mod(7, 2);
 		assertNotEquals(0, output);
 		for(output=0; output <= test4.Mod(7,2);output++)
@@ -105,7 +105,7 @@ class MathutilsTest {
 
 	@Test
 	void test5() {
-		Mathutils test5 = new Mathutils();
+		SUB test5 = new SUB();
 		int output = test5.Sub(15, 10);
 
 
@@ -133,7 +133,7 @@ class MathutilsTest {
 
 	@Test
 	void test6() {
-		Mathutils test6 = new Mathutils();
+		NAME test6 = new NAME();
 		String Output = test6.Name("Ejangue Guillaume");
 		assertNotSame("Master", Output, " Geben Sie eine String anders als Ejangue Guillaume");
 
@@ -143,7 +143,7 @@ class MathutilsTest {
 
 	@Test
 	public void test7() {
-		Mathutils test7 = new Mathutils();
+		ALT test7 = new ALT();
 		int output = test7.Alt(28);
 		assertSame(28, output);
 
