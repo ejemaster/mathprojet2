@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f4d2b6a-c1b2-4ea4-9b61-f9016e5ba726" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/Mathutils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/i9Bach/mathUtils/MathutilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/i9Bach/mathUtils/MathutilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-docker-info.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/i9Bach/mathUtils/Mathutils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/image-id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/image-name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/repository" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/i9Bach/mathUtils/MathutilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/i9Bach/mathUtils/MathutilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +127,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
