@@ -1,5 +1,5 @@
-node{
- def registryProjet='registry.hub.docker.com/ejemaster/mathprojet' 
+node() {
+    def registryProjet='registry.hub.docker.com/ejemaster/mathprojet' 
  
  def IMAGE="${registryProjet}:image-${env.BUILD_ID}"
      
@@ -7,20 +7,20 @@ node{
            
            git 'https://github.com/ejemaster/mathprojet.git'
        } 
-      stage ('Projekt Clean') {
-           bat 'mvn clean'
-       }
-       stage ('Build - Maven Package') {
-           bat 'mvn package'
-       }
-       
-      
-       stage('Build - Junit Test Stage')
-       {
-           bat 'mvn test'
-       }
+  stage('Text') {
+    println 'Vorbereitung für Parallele Testing'
+  }
 
- def  img = stage ('Build der Image -Docker Image') {
+  stage('Build and Test') {
+   parallel (
+ "Build-maven Package" : { stage("maven Package") {bat 'mvn package'} },
+ 
+ 
+ "Build- Test" : { stage("Maven Test -Junit Test") { bat 'mvn test'}}
+ 
+)
+  }
+  def  img = stage ('Build der Image -Docker Image') {
      docker.build("$IMAGE", ".")
  }
       stage('Test image') {
@@ -30,7 +30,7 @@ node{
         
     }
       stage('Push- Push der Image auf Dockerhub'){
-          docker.withRegistry(https://hub.docker.com/repository/docker/ejemaster/mathprojet', 'docker-hub'){
+          docker.withRegistry('https://registry.hub.docker.com', 'docker-hub'){
           img.push("${env.BUILD_ID}")
           img.push("latest")
           }
@@ -40,4 +40,5 @@ node{
         bat " docker rmi -f ejemaster/mathprojet"
       
     }
+  
 }
