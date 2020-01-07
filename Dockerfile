@@ -1,9 +1,13 @@
 FROM  maven:3.6-jdk-14
 LABEL maintainer EJANGUE (ejemaster@gmx.de)
-
-
 COPY src/ /tmp
 COPY pom.xml/ /tmp
+
+
+#COPY src/main/java/org/i9Bach/mathUtils/Mathutils.java /tmp
+COPY pom.xml/ /tmp
+COPY src/main/java/org/i9Bach/mathUtils/Main.java /tmp
+
 COPY src/test/java/org/i9Bach/mathUtils/MathutilsTest.java /tmp
 ADD /target/Mathlib-0.0.1-SNAPSHOT.jar /tmp
 WORKDIR  /tmp
