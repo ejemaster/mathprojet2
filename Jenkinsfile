@@ -30,7 +30,7 @@ node{
         
     }
       stage('Push- Push der Image auf Dockerhub'){
-          docker.withRegistry('https://registry.hub.docker.com', 'docker-hub'){
+          docker.withRegistry(https://hub.docker.com/repository/docker/ejemaster/mathprojet', 'docker-hub'){
           img.push("${env.BUILD_ID}")
           img.push("latest")
           }
