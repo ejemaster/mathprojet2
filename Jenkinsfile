@@ -37,7 +37,7 @@ node{
       }
     stage('Remove Unused docker image') {
      
-        bat " docker rmi ejemaster/mathprojet"
+        bat " docker rmi -f ejemaster/mathprojet"
       
     }
 }
