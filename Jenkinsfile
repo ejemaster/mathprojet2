@@ -13,10 +13,10 @@ node() {
 
   stage('Build and Test') {
    parallel (
- "Build-maven Package" : { stage("maven Package") {bat 'mvn package'} },
+ "Build-maven Package" : { stage("maven Package") {sh 'mvn package'} },
  
  
- "Build- Test" : { stage("Maven Test -Junit Test") { bat 'mvn test'}}
+ "Build- Test" : { stage("Maven Test -Junit Test") { sh 'mvn test'}}
  
 )
   }
@@ -26,7 +26,7 @@ node() {
       stage('Test image') {
        
 
-     bat "docker run  ejemaster/mathprojet"
+     sh "docker run  ejemaster/mathprojet"
         
     }
       stage('Push- Push der Image auf Dockerhub'){
@@ -37,7 +37,7 @@ node() {
       }
     stage('Remove Unused docker image') {
      
-        bat " docker rmi -f ejemaster/mathprojet"
+        sh " docker rmi -f ejemaster/mathprojet"
       
     }
   
