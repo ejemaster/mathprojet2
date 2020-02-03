@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d2b6a-c1b2-4ea4-9b61-f9016e5ba726" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/ALT.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/DIV.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/FARBE.java" beforeDir="false" />
