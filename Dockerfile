@@ -6,7 +6,7 @@ COPY pom.xml/ /tmp
 COPY pom.xml/ /tmp
 COPY src/main/java/org/i9Bach/mathUtils/Main.java /tmp
 
-COPY src/test/java/org/i9Bach/mathUtils/MathutilsTest.java /tmp
+COPY src/test/java/org/i9Bach/mathUtils/ /tmp
 ADD /target/Mathlib-0.0.1-SNAPSHOT.jar /tmp
 WORKDIR  /tmp
 COPY target/Mathlib-0.0.1-SNAPSHOT.jar  /tmp
