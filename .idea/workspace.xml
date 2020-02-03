@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d2b6a-c1b2-4ea4-9b61-f9016e5ba726" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/ALT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/DIV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/FARBE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/MOD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/MUL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/NAME.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/SUB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/i9Bach/mathUtils/SUM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/i9Bach/mathUtils/MathutilsTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Mathlib-0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.i9Bach.mathUtils.MathutilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.i9Bach.mathUtils.MathutilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/i9Bach/mathUtils/MathutilsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
