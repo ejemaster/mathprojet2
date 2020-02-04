@@ -13,7 +13,7 @@ node() {
 
   stage('Build and Test') {
    parallel (
- "Build-maven Package" : { stage("maven Package") {bat 'mvn package -DskipTests=true '} },
+ "Build-maven Package" : { stage("maven Package") {bat 'mvn -DskipTests=true package '} },
  
  
  "Build- Test" : { stage("Maven Test -Junit Test") { bat 'mvn test'}}
