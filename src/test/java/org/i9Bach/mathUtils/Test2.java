@@ -6,12 +6,12 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.Test;
 
-public class test2 {
+public class Test2 {
 	
 	
-@Test
+   @Test
 	
-	void Test2()
+	void test2()
 	{
 	MathFunktion test2 = new MathFunktion();
 		int output = test2.Mul(2, 10);
